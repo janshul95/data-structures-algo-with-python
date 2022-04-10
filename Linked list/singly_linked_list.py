@@ -4,9 +4,6 @@ class Node:
     def __init__(self, data=None):
         self.data = data
         self.next = None
-    
-    def _str_ (self):
-        return str(self.data)
 
 
 class SinglyLinkedList:
@@ -28,7 +25,7 @@ class SinglyLinkedList:
             self.tail.next = node
             self.tail = node
 
-        self.count +=1
+        self.count += 1
 
     def iter(self):
         """Iterate through the list"""
@@ -38,9 +35,11 @@ class SinglyLinkedList:
             current = current.next
             yield val
 
-    def traverse(self):
+    def print(self):
         """traverse and print the linked list"""
-        print([i for i in self.iter()])
+        print("----------------SLL---------------")
+        for i in self.iter():
+            print(i)
 
     def delete(self, data):
         "delete an element from the linked list"
@@ -52,12 +51,12 @@ class SinglyLinkedList:
                     self.head = current.next
                 else:
                     prev.next = current.next
-                self.count-=1
+                self.count -= 1
                 break
             prev = current
-            current=current.next
+            current = current.next
 
-    def search(self,data):
+    def contain(self, data):
         """search an element in the linked list"""
         curr = self.head
         for node in self.iter():

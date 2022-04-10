@@ -1,4 +1,5 @@
 from singly_linked_list import SinglyLinkedList
+from doubly_linked_list import DoublyLinkedList
 
 
 def print_LL(LL):
@@ -7,17 +8,19 @@ def print_LL(LL):
         print(head.data)
         head = head.next
 
-def main():      
 
-    books = SinglyLinkedList()
+def main():
+
+    # books = SinglyLinkedList()
+    books = DoublyLinkedList()
     books.append("book 1")
     books.append("book 2")
     books.append("book 3")
     books.append("book 4")
-    books.traverse()
+    books.print()
     books.delete("book 3")
-    books.traverse()
-    print(books.search("book 4"))
+    books.print()
+    print(books.contain("book 4"))
 
 
 if __name__ == "__main__":
