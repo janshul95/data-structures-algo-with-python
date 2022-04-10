@@ -1,6 +1,3 @@
-from locale import currency
-
-
 class Node:
     """ A singly-linked node. """
 
