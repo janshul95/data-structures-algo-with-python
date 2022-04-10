@@ -21,3 +21,10 @@ Data Structures and Algorithms implementation using python
 - We can think of a node as a container, which consists of data and links to other nodes
 
 Note: A link is a pointer
+
+1. [Linked list](./Linked%20list/)
+2. [Stacks](./Stacks/)
+3. [Queues](./Queues/)
+4. [Trees](./Trees/)
+5. [Heaps](./Heaps)
+6. [Graph](./Graph/)
