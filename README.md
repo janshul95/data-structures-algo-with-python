@@ -18,9 +18,22 @@ Data Structures and Algorithms implementation using python
 
 ## Nodes
 - At the heart of lists and several other data structures is the concept of a node
-- We can think of a node as a container, which consists of data and links to other nodes
+- We can think of a node as a container, which consists of data and links to other nodes  
 
 Note: A link is a pointer
+
+A simple node implementation  
+
+        class Node:  
+            def __init__ (self,data=None):
+                self.data = data  
+                self.next = None
+
+One thing you may also want to do is to implement _str_ method so that if required, you can easily print the node  
+
+            def _str_ (self):
+                return str(self.data)
+
 
 1. [Linked list](./Linked%20list/)
 2. [Stacks](./Stacks/)
