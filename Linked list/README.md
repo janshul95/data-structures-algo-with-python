@@ -17,6 +17,10 @@
 
 
     3. [Circularly Linked list](./circularly_linked_list.py)
+        - It is a special case of linked list where endpoints are connected with each other i.e. In Circular linked list tail is pointing to head, as shown in image below
+        ![CLL](./images/CLL.png)
+        - we can implement CLL either using a singly-linked list node or doubly-linked list node
+        ![CDLL](./images/CDLL.png)
 - I will also show various important opeations that can be performent on these lists:
     - append
     - delete
