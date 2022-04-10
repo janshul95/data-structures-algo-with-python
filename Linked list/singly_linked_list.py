@@ -60,15 +60,14 @@ class SinglyLinkedList:
     def search(self,data):
         """search an element in the linked list"""
         curr = self.head
-        while curr:
-            if curr.data == data:
+        for node in self.iter():
+            if node == data:
                 return True
             curr = curr.next
         return False
-        
-        
 
-
-
-
-
+    def clear(self):
+        """clear the entire list"""
+        self.head = None
+        self.tail = None
+        self.count = 0
