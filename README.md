@@ -34,6 +34,7 @@ One thing you may also want to do is to implement _str_ method so that if requir
             def _str_ (self):
                 return str(self.data)
 
+Now using variations of the node class we can implement almost all the data structures
 
 1. [Linked list](./Linked%20list/)
 2. [Stacks](./Stacks/)
