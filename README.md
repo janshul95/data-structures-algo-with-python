@@ -37,8 +37,8 @@ One thing you may also want to do is to implement _str_ method so that if requir
 Now using variations of the node class we can implement almost all the data structures
 
 1. [Linked list](./Linked%20list/)
-2. [Stacks](./Stacks/)
-3. [Queues](./Queues/)
-4. [Trees](./Trees/)
-5. [Heaps](./Heaps)
-6. [Graph](./Graph/)
+2. [Stacks](./2-Stacks/)
+3. [Queues](./3-Queues/)
+4. [Trees](./4-Trees/)
+5. [Heaps](./5-Heaps/)
+6. [Graph](./6-Graph/)
