@@ -1,4 +1,4 @@
 [Back](../README.md)
 
 
-## Stack
+## Stack [Python Implementation](stack_node.py)
