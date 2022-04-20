@@ -12,9 +12,9 @@ def print_LL(LL):
 
 def main():
 
-    # books = SinglyLinkedList()
+    books = SinglyLinkedList()
     # books = DoublyLinkedList()
-    books = CircularlyLinkedList()
+    # books = CircularlyLinkedList()
     books.append("book 1")
     books.append("book 2")
     books.append("book 3")
